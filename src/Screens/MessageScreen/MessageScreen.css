@@ -1,0 +1,44 @@
+    .message-screen {
+        display: flex;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .message-screen__contact-list-container {
+        width: 400px;
+        height: 100%;
+        border-right: 1px solid #ddd;
+        background-color: #fff;
+        padding-top: 100px;
+
+        overflow-y: auto; 
+    }
+
+    .message-screen__messages-container {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: #e5ddd5; /* color estilo WhatsApp */
+    }
+
+    .message-screen__messages-container > .messages-list {
+        flex: 1;
+        padding: 16px;
+    }
+
+    .messages-form-container {
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+        padding: 12px;
+        
+    }
+
+    .loading-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        color: #555;
+    }

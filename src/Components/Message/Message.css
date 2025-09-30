@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+    }
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;              
+    margin-bottom: 10px;
+    padding: 0 50px;
+    }
+
+/* Alineación del mensaje (container) */
+.message-container.sent {
+    align-items: flex-end;    
+    }
+
+.message-container.received {
+    align-items: flex-start;  
+    }
+
+/* Burbuja de mensaje */
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    word-wrap: break-word;
+    max-width: 80%;
+    width: fit-content;
+    }
+
+/* Burbuja de mensaje enviado */
+.message.sent {
+    background-color: #d8fcd2;
+    color: black;
+    border-bottom-right-radius: 0px;
+    max-width: 600px;
+}
+
+/* Burbuja de mensaje recibido */
+.message.received {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #e1e1e1;
+    border-bottom-left-radius: 0px;
+    max-width: 600px;
+    }
+
+/* Autor */
+.message-container h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+    color: #4f4f4f;
+    padding: 12px 0 0px 0;
+    }
+
+/* Timestamp */
+.timestamp {
+    font-size: 12px;
+    color: #999;
+    margin-top: 4px;
+    align-self: flex-end;
+    }

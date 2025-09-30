@@ -1,0 +1,18 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+.contact-list {
+    width: 400px;
+    border-right: 1px solid #ddd;
+}
+.chat-placeholder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    background-color: #ddd;
+}
