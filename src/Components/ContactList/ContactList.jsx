@@ -32,7 +32,10 @@ const ContactList = () => {
 const ContactItem = ({ contact }) => {
     return (
         <Link to={'/contacto/' + contact.id} className="contact-item">
-            <img src={contact.profile_img} alt={contact.name} />
+            <img
+            src={contact.profile_img} 
+            alt={contact.name} 
+            />
             <div className="contact-info">
                 <h2 className="contact-name">{contact.name}</h2>
                 <span className="contact-status">

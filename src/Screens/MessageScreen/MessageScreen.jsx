@@ -3,6 +3,7 @@
     import MessagesList from '../../Components/MessagesList/MessagesList'
     import ContactHeader from '../../Components/ContactHeader/ContactHeader'
     import ContactList from '../../Components/ContactList/ContactList'
+    import ChatHeaderMessages from '../../Components/ChatHeader/ChatHeaderMessages'
     import { ContactDetailContext } from '../../Context/ContactDetailContext'
     import { useParams } from 'react-router'
     import { getContactById } from '../../services/contactService'
@@ -27,6 +28,7 @@
             </div>
             <hr />
             <div className='message-screen__messages-container'>
+                    <ChatHeaderMessages />
                     {
                         isContactDetailLoading 
                         ? <span className="loading-container">cargando...</span>
