@@ -16,7 +16,8 @@ const ContactListContextProvider = (props) => {
             const response = getAllContacts();
             setContactList(response);
             setIsContactListLoading(false);
-        }, 2000);
+        },
+        1000);
     }, []);
 
     return (
