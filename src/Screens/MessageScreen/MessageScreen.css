@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+    }
+    
     .message-screen {
         display: flex;
         height: 100vh;
@@ -15,28 +25,22 @@
     }
 
     .message-screen__messages-container {
-        flex: 2;
+        width: calc(100% - 400px);
         display: flex;
         flex-direction: column;
         height: 100%;
-        background-color: #e5ddd5; /* color estilo WhatsApp */
-    }
-
-    .message-screen__messages-container > .messages-list {
-        flex: 1;
-        padding: 16px;
+        background-color: #e5ddd5; 
     }
 
     .messages-form-container {
-        border-top: 1px solid #ccc;
-        background-color: #fff;
         padding: 12px;
         
     }
 
     .loading-container {
-        flex: 1;
+        height: 100vh; 
         display: flex;
+        place-items: center;
         align-items: center;
         justify-content: center;
         font-size: 16px;
