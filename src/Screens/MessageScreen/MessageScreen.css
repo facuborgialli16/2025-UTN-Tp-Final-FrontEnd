@@ -61,8 +61,3 @@
         
     }
 
-    @media screen and (max-width: 820px){
-        .message-screen__contact-list-container{
-            width: 200px;
-        }
-    }
