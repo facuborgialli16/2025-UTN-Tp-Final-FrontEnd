@@ -20,7 +20,7 @@
         border-right: 1px solid #ddd;
         background-color: #fff;
         padding-top: 120px;
-
+        
         overflow-y: auto; 
     }
 
@@ -45,4 +45,18 @@
         justify-content: center;
         font-size: 16px;
         color: #555;
+    }
+
+
+    @media screen and (max-width: 670px){
+        .message-screen__contact-list-container{
+            display: none;
+        }
+
+        .message-screen__messages-container,
+        .messages-form-container{
+            width: 100%;
+        }
+
+        
     }

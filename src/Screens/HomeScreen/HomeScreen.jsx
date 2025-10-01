@@ -6,11 +6,18 @@ import './HomeScreen.css'
 const HomeScreen = () => {
     return (
     <div className="home-container">
-        <div className='contact-list'>
-            <ContactHeader/>
-            <ContactList/>
+        
+        <div className='left-container'>
+            <div className='contact-header'>
+                <ContactHeader/>
+            </div>
+            <div className='contact-list'>
+                <ContactList/>
+            </div>
         </div>
+
         <hr />
+
         <div className="chat-placeholder">
             <span>Aún no has seleccionado ningún contacto</span>
         </div>
