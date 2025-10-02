@@ -4,7 +4,7 @@ const contacts =[
         name:'Serena',
         last_time_conected:'16 de octubre de 2022',
         is_connected: false,
-        profile_img:'https://static.vecteezy.com/system/resources/thumbnails/050/035/558/small_2x/cute-minnie-mouse-free-vector.jpg',
+        profile_img:'https://static.vecteezy.com/system/resources/previews/002/740/762/non_2x/cute-woman-with-black-hair-free-vector.jpg',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -29,7 +29,7 @@ const contacts =[
         name:'Camila',
         last_time_conected:'now',
         is_connected: true,
-        profile_img:'https://i.pinimg.com/564x/71/f6/18/71f618014aef162abdcd7245bf72dc3f.jpg',
+        profile_img:'https://img.freepik.com/vector-gratis/mujer-cabello-largo-oscuro_1308-176666.jpg?t=st=1759282038~exp=1759285638~hmac=61e8edec8cbe0ed1600190cd0409f727eeefaf1fe0c7da34bb146a64a3f9d8b1',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -46,7 +46,7 @@ const contacts =[
         name:'Lorena',
         last_time_conected:'now',
         is_connected: true,
-        profile_img:'https://i.pinimg.com/474x/9f/de/91/9fde913b183611ffa67d5969ae62abce.jpg',
+        profile_img:'https://st4.depositphotos.com/8230070/22279/v/450/depositphotos_222797476-stock-illustration-face-expression-beautiful-woman-dark.jpg',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -63,7 +63,7 @@ const contacts =[
         name:'Lionel',
         last_time_conected:'now',
         is_connected: true,
-        profile_img:'https://i.ebayimg.com/images/g/SAsAAOSwTNBd2EAY/s-l1200.jpg',
+        profile_img:'https://img.freepik.com/vector-premium/retrato-hombre-pelo-rizado-avatar-redes-sociales-vector-moda-belleza_55610-7317.jpg?semt=ais_hybrid&w=740&q=80',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -87,7 +87,7 @@ const contacts =[
         name:'Caro',
         last_time_conected:'now',
         is_connected: true,
-        profile_img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7aKgv9C1q5LnMswiLtn--YP5f8p6Kb_jmDw&s',
+        profile_img:'https://us.123rf.com/450wm/grgroup/grgroup2009/grgroup200902552/156012223-dise%C3%B1o-de-cabeza-de-dibujos-animados-de-mujer-de-cabello-negro-ni%C3%B1a-persona-femenina-personas.jpg?ver=6',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -121,7 +121,7 @@ const contacts =[
         name:'Santino',
         last_time_conected:'now',
         is_connected: false,
-        profile_img:'https://wallpapers.com/images/featured/imagenes-de-homer-simpson-kj3h1n6hzcpwg904.jpg',
+        profile_img:'https://img.freepik.com/vector-premium/hombre-dibujos-animados-cabello-negro-fondo-blanco_481747-87631.jpg',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -138,7 +138,7 @@ const contacts =[
         name:'Gonzalo',
         last_time_conected:'now',
         is_connected: true,
-        profile_img:'https://thumbs.dreamstime.com/b/bart-simpson-caricatura-vektor-formatos-png-jpg-262242958.jpg',
+        profile_img:'https://img.freepik.com/vector-gratis/retrato-nino-cabello-rubio-ojos-azules_1308-157023.jpg                       ',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
@@ -206,7 +206,7 @@ const contacts =[
         name:'Valen',
         last_time_conected:'now',
         is_connected: true,
-        profile_img:'https://i.redd.it/57i4fukctawd1.png',
+        profile_img:'https://img.freepik.com/vector-premium/personaje-dibujos-animados-sonriente-pelo-negro_684058-729.jpg',
         state:'Tu espera ese dia y cuando llegue ese dia, ese sera el dia',
         messages:[
             {
