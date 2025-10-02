@@ -6,7 +6,7 @@ function ContactHeader() {
     return (
         <header className="contact-header">
             <div className="header-top">
-                <h2>WhatsApp</h2>
+                <h2>Chats</h2>
             </div>
             <div className="header-search">
                 <input 
