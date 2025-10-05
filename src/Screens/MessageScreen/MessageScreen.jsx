@@ -14,8 +14,6 @@
 
 
     function MessageScreen() {
-
-
         const {isContactDetailLoading, contactDetailed, onCreateNewMessage} = useContext(ContactDetailContext)
 
 
