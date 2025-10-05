@@ -12,14 +12,14 @@ const contacts =[
             author: 'YO',
             message: "Hola Sere!",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true     
             },
             {
             id: 2,
             author: 'Serena',
             message: "Hola facu, como estas?",
             timestamp: '16:17',
-            sent: false       // vos lo enviaste
+            sent: false       
             }
         ]
     
@@ -37,7 +37,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien Cami?",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true       
             }
         ]
     },
@@ -54,7 +54,7 @@ const contacts =[
             author: 'Lore',
             message: "Lavaste los platos?",
             timestamp: '16:17',
-            sent: false       // vos lo enviaste
+            sent: false      
             }
         ]
     },
@@ -71,14 +71,14 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien pa?",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true       
             },
             {
             id: 2,
             author: 'Lionel',
             message: "Si hijo todo bien y vos?",
             timestamp: '16:17',
-            sent: false       // vos lo enviaste
+            sent: false       
             }
         ]
     },
@@ -95,7 +95,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true       
             }
         ]
     },
@@ -112,7 +112,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true      
             }
         ]
     },
@@ -129,7 +129,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true       
             }
         ]
     },
@@ -146,7 +146,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true     
             }
         ]
     },
@@ -163,7 +163,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true     
             }
         ]
     },
@@ -180,7 +180,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true 
             }
         ]
     },
@@ -197,7 +197,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true 
             }
         ]
     },
@@ -214,7 +214,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true
             }
         ]
     },
@@ -231,7 +231,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true      
             }
         ]
     },
@@ -248,7 +248,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true  
             }
         ]
     },
@@ -265,7 +265,7 @@ const contacts =[
             author: 'YO',
             message: "hola todo bien",
             timestamp: '16:17',
-            sent: true       // vos lo enviaste
+            sent: true      
             }
         ]
     },

@@ -1,5 +1,6 @@
 import React from 'react'
 import './NewMessageForm.css'
+import ICONS from '../../Constants/Icons'
 
 
 const NewMessageForm = (props) => {
@@ -21,7 +22,7 @@ const NewMessageForm = (props) => {
             name="mensaje" 
             placeholder="Escribe un mensaje..." 
         />
-        <button type="submit" className="send-button">→</button>
+        <button type="submit" className="send-button"><ICONS.Send/></button>
     </form>
 </div>
     )
