@@ -52,7 +52,7 @@ const contacts =[
             {
             id: 1,
             author: 'Lore',
-            message: "Lavaste los platos?",
+            message: "Estas despierto?",
             timestamp: '16:17',
             sent: false      
             }

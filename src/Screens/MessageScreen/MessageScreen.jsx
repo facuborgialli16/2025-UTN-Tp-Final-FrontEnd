@@ -5,6 +5,7 @@
     import ContactList from '../../Components/ContactList/ContactList'
     import ChatHeaderMessages from '../../Components/ChatHeaderMessages/ChatHeaderMessages'
     import { ContactDetailContext } from '../../Context/ContactDetailContext'
+    import NavBar from '../../Components/NavBar/NavBar'
     import { useParams } from 'react-router'
     import { getContactById } from '../../services/contactService'
 
@@ -22,6 +23,9 @@
 
         return (
             <div className="message-screen">
+            <div className="navbar-container">
+                <NavBar />
+            </div>
             <div className="message-screen__contact-list-container  ">
                 <ContactHeader/>
                 <ContactList/>

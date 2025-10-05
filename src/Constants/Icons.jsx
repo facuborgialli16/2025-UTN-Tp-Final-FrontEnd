@@ -1,4 +1,4 @@
-import { BsFillSendExclamationFill } from "react-icons/bs";
+import { IoMdSend } from "react-icons/io";
 import { RiChatNewFill } from "react-icons/ri";
 import { SlOptionsVertical } from "react-icons/sl";
 import { FaVideo } from "react-icons/fa";
@@ -11,7 +11,7 @@ import { PiUsersThreeFill } from "react-icons/pi";
 
 const ICONS ={
     Whatsapp : BsWhatsapp,
-    Send :  BsFillSendExclamationFill,
+    Send :  IoMdSend,
     NewChat : RiChatNewFill,
     Options : SlOptionsVertical,
     VideoCall : FaVideo ,
