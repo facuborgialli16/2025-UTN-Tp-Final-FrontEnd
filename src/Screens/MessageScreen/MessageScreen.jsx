@@ -33,7 +33,7 @@
                     <ChatHeaderMessages />
                     {
                         isContactDetailLoading 
-                        ? <span className="loading-container">cargando...</span>
+                        ? <span className="loading-container">cargando mensajes...</span>
                         : (
                             contactDetailed 
                             ? <MessagesList 

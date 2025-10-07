@@ -14,7 +14,7 @@ const ContactList = () => {
         <div>
             {
                 isContactListLoading
-                    ? <span className='contact-charge'>Cargando contactos...</span>
+                    ? <span className='contact-charge'>cargando contactos...</span>
                     : contactList.map(
                         (contact) => {
                             return <ContactItem
