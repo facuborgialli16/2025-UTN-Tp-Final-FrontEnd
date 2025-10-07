@@ -3,9 +3,15 @@ import React, { useContext } from 'react';
 import { ContactDetailContext } from '../../Context/ContactDetailContext';
 import './ChatHeaderMessages.css';
 import ICONS from '../../Constants/Icons';
+import { useNavigate } from 'react-router';
 
 function ChatHeaderMessages() {
     const { contactDetailed, isContactDetailLoading } = useContext(ContactDetailContext);
+    const navigate = useNavigate(); 
+
+    const handleGoBack = () => {
+            navigate(-1); 
+        };
 
     if (isContactDetailLoading) {
         return (
@@ -25,7 +31,10 @@ function ChatHeaderMessages() {
     
     return (
         <div className="chat-header-messages">
-            <div className='chat-header-message_img-container'>
+            <div className='chat-header-messages_img-container'>
+                <button className='chat-header-message__back-button'onClick={handleGoBack}>
+                    <ICONS.Back />
+                </button>   
                 <img
                     src={contactDetailed.profile_img}
                     alt={contactDetailed.name}

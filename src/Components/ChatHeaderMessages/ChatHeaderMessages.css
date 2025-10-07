@@ -9,19 +9,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     border-bottom: 1px solid #ccc;
     background-color: #f9f9f9;
 
     height: 70px;
 }
 
-.chat-header-message_img-container{
+.chat-header-messages_img-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
+
+
+
 
 .chat-header-messages__img {
     width: 50px;
@@ -51,8 +55,8 @@
 
 .button-videcall,
 .button-serch,
-.button-options {
-    display: flex;
+.button-options,
+.chat-header-message__back-button {
     width: 36px;              
     height: 36px;
     border-radius: 50%;
@@ -68,7 +72,8 @@
 
 .button-videcall:hover,
 .button-serch:hover,
-.button-options:hover {
+.button-options:hover,
+.chat-header-message__back-button:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 

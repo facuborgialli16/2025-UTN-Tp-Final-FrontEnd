@@ -8,6 +8,7 @@ import { MdMarkUnreadChatAlt } from "react-icons/md";
 import { LuCircleDashed } from "react-icons/lu";
 import { RiChatThreadFill } from "react-icons/ri";
 import { PiUsersThreeFill } from "react-icons/pi";
+import { IoIosArrowBack } from "react-icons/io";
 
 const ICONS ={
     Whatsapp : BsWhatsapp,
@@ -19,7 +20,8 @@ const ICONS ={
     Chats : MdMarkUnreadChatAlt,
     States : LuCircleDashed,
     Channels : RiChatThreadFill,
-    Users : PiUsersThreeFill
+    Users : PiUsersThreeFill,
+    Back : IoIosArrowBack
 }
 
 export default ICONS
