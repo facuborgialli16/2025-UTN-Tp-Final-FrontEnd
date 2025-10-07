@@ -21,6 +21,7 @@ const NewMessageForm = (props) => {
             className="message-input" 
             name="mensaje" 
             placeholder="Escribe un mensaje..." 
+            rows="1"
         />
         <button type="submit" className="send-button"><ICONS.Send/></button>
     </form>
