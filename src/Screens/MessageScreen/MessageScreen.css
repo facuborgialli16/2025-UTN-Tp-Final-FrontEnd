@@ -1,145 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .message-screen {
+        display: flex;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
-        
-        .message-screen {
-            display: flex;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
+    .message-screen__contact-list-container {
+    flex: 0 0 clamp(200px, 30%, 400px);
+    height: 100%;
+    border-right: 1px solid #ddd;
+    background-color: #fff;
+    padding-top: 0; 
+    overflow-y: auto;
+    transition: flex-basis 0.3s ease;
+    }
 
-        .message-screen__contact-list-container {
-        flex: 0 0 clamp(200px, 30%, 400px);
+    .message-screen__messages-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
         height: 100%;
-        border-right: 1px solid #ddd;
-        background-color: #fff;
-        padding-top: 0; 
-        overflow-y: auto;
-        transition: flex-basis 0.3s ease;
+        background-color: #e5ddd5; 
+    }
+
+    .messages-form-container {
+        padding: 12px;
+        
+    }
+
+    .loading-container {
+        height: 100vh; 
+        display: flex;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        color: #555;
+    }
+
+
+    @media screen and (max-width: 670px){
+        .message-screen__contact-list-container{
+            display: none;
         }
 
-        .message-screen__messages-container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            background-color: #e5ddd5; 
-            position: relative;
-        }
-
-        .messages-form-container {
-            padding: 12px;
-            
-        }
-        
-        #startup {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #eeeeee;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 10;
-        }
-
-        
-        .spinner-container {
-            animation: rotate 2s linear infinite;
-            -webkit-animation: rotate 2s linear infinite;
-        }
-        
-        .spinner-container .path {
-            stroke-dasharray: 1, 150;
-            /* 1%, 101% circumference */
-            stroke-dashoffset: 0;
-            stroke: rgba(27, 154, 89, 0.7);
-            stroke-linecap: round;
-            animation: dash 1.5s ease-in-out infinite;
-            -webkit-animation: dash 1.5s ease-in-out infinite;
-        }
-        
-        @keyframes rotate {
-            100% {
-            transform: rotate(360deg);
-            }
-        }
-        
-        @keyframes dash {
-            0% {
-            stroke-dasharray: 1, 150;
-            /* 1%, 101% circumference */
-            stroke-dashoffset: 0;
-            }
-            50% {
-            stroke-dasharray: 90, 150;
-            /* 70%, 101% circumference */
-            stroke-dashoffset: -35;
-            /* 25% circumference */
-            }
-            100% {
-            stroke-dasharray: 90, 150;
-            /* 70%, 101% circumference */
-            stroke-dashoffset: -124;
-            /* -99% circumference */
-            }
-        }
-        
-        @-webkit-keyframes rotate {
-            100% {
-            transform: rotate(360deg);
-            }
-        }
-        
-        @-webkit-keyframes dash {
-            0% {
-            stroke-dasharray: 1, 150;
-            /* 1%, 101% circumference */
-            stroke-dashoffset: 0;
-            }
-            50% {
-            stroke-dasharray: 90, 150;
-            /* 70%, 101% circumference */
-            stroke-dashoffset: -35;
-            /* 25% circumference */
-            }
-            100% {
-            stroke-dasharray: 90, 150;
-            /* 70%, 101% circumference */
-            stroke-dashoffset: -124;
-            /* -99% circumference */
-            }
-        }
-        
-        .app-wrapper {
+        .message-screen__messages-container,
+        .messages-form-container{
             width: 100%;
-            height: 100%;
         }
+
         
-        @media screen and (max-width: 600px) {
-            body {
-            overflow-x: auto;
-            }
-            .app-wrapper {
-            width: 600px;
-            }
+    }
+
+
+    @media screen and (max-width: 400px){
+        .navbar-container{
+            display: none;
         }
-
-        @media screen and (max-width: 670px){
-            .message-screen__contact-list-container{
-                display: none;
-            }
-
-            .message-screen__messages-container,
-            .messages-form-container{
-                width: 100%;
-            }
-
-            
-        }
-
+    }
