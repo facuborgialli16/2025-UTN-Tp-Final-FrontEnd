@@ -11,7 +11,7 @@ const NewMessageForm = (props) => {
         const message_value = form.mensaje.value
 
         props.onCreateNewMessage(message_value)
-        form.reset() // limpiar el textarea después de enviar
+        form.reset() 
     }
 
     return (
