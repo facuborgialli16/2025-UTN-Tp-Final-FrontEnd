@@ -16,7 +16,7 @@ const NewMessageForm = (props) => {
 
     return (
         <div className="new-message-form-container">
-            <button type="submit" className="plus-button"><ICONS.Plus/></button>
+        <button type="submit" className="plus-button"><ICONS.Plus/></button>
         <button type="submit" className="emoji-button"><ICONS.Emojis/></button>
     <form className="new-message-form" onSubmit={handleSubmit}>
         <textarea 
