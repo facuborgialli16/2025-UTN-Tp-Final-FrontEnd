@@ -37,14 +37,14 @@
     font-size: 16px;
     background-color: #f7f5f3;
     color: black;
-    padding: 20px;
+    padding: 40px;
     
 }
 
 .chat-placeholder__text,
 .chat-placeholder__text {
     text-align: center;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 
