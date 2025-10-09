@@ -9,6 +9,8 @@ import { LuCircleDashed } from "react-icons/lu";
 import { RiChatThreadFill } from "react-icons/ri";
 import { PiUsersThreeFill } from "react-icons/pi";
 import { IoIosArrowBack } from "react-icons/io";
+import { PiSmileyStickerBold } from "react-icons/pi";
+import { FiPlus } from "react-icons/fi";
 
 const ICONS ={
     Whatsapp : BsWhatsapp,
@@ -21,7 +23,9 @@ const ICONS ={
     States : LuCircleDashed,
     Channels : RiChatThreadFill,
     Users : PiUsersThreeFill,
-    Back : IoIosArrowBack
+    Back : IoIosArrowBack,
+    Emojis : PiSmileyStickerBold,
+    Plus : FiPlus 
 }
 
 export default ICONS

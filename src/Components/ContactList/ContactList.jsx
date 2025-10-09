@@ -38,9 +38,6 @@ const ContactItem = ({ contact }) => {
             />
             <div className="contact-info">
                 <h2 className="contact-name">{contact.name}</h2>
-                <span className="contact-status">
-                    {contact.is_connected ? 'En línea' : 'Desconectado'}
-                </span>
             </div>
         </Link>
     )
