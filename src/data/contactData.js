@@ -17,7 +17,7 @@ const contacts =[
             {
             id: 2,
             author: 'Serena',
-            message: "Hola facu, como estas?",
+            message: "Hola facu, ¿como estas?",
             timestamp: '16:17',
             sent: false       
             }
