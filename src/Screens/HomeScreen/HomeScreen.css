@@ -8,7 +8,12 @@
     display: flex;
     height: 100vh; 
     width: 100%;
+    background-color: #ffffff; 
+    background-image: none;
 }
+
+
+
 
 .navbar-container {
     width: 60px; 
@@ -33,12 +38,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 12px;
     font-size: 16px;
     background-color: #f7f5f3;
     color: black;
     padding: 40px;
     
+}
+
+.chat-placeholder__info{
+    text-align: center ;
+    font-size: 12px;
 }
 
 .chat-placeholder__text,
@@ -53,9 +63,13 @@
     text-align: center;
 }
 
-.chat-placeholder__icon{
-    color: grey;
-    font-size: 70px;
+.chat-placeholder__image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 320px;
+    height: 168px;
 }
 
 

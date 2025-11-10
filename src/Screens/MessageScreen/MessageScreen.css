@@ -21,13 +21,14 @@
     transition: flex-basis 0.3s ease;
     }
 
-    .message-screen__messages-container {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        background-image: url('https://i.pinimg.com/736x/31/04/e0/3104e02012ee109335a5ca2fc52b81db.jpg');
-    }
+.message-screen__messages-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/736x/31/04/e0/3104e02012ee109335a5ca2fc52b81db.jpg');
+}
+
 
     .messages-form-container {
         padding: 12px;
