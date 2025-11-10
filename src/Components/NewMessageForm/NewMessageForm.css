@@ -47,7 +47,7 @@
 }
 
 .emoji-button{
-    background-color: #e5ddd5;
+    background-color: transparent;
     color: black;
     border: none;
     border-radius: 50%;
@@ -64,7 +64,7 @@
 }
 
 .plus-button{
-    background-color: #e5ddd5;
+    background-color: transparent;
     color: black;
     border: none;
     border-radius: 50%;
